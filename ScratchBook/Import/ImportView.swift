@@ -62,6 +62,7 @@ struct ImportView: View {
                     VStack(alignment: .leading, spacing: 20) {
                         Text("Select the button below to choose the backup folder. The folder will be called \"ScratchPad\" and will contain two folders called \"Notes\" and \"Preferences\".")
                             .lineLimit(nil)
+                            .fixedSize(horizontal: false, vertical: true)
                         
                         Text("Select the \"ScratchPad\" folder.")
                         
